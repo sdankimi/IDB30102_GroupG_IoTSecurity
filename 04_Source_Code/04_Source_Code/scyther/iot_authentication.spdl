@@ -1,0 +1,54 @@
+hashfunction H;
+
+const IDSP, IDSHD: Nonce;
+const MasterKey: Function;
+
+protocol IoTAuthentication(SP, RA, SHD)
+{
+    role SP
+    {
+        fresh N1: Nonce;
+
+        send_1(SP, RA,
+            IDSP,
+            IDSHD,
+            N1,
+            H(IDSP, IDSHD, N1)
+        );
+
+        claim_SP1(SP, Alive);
+    }
+
+    role RA
+    {
+        var N1: Nonce;
+
+        recv_1(SP, RA,
+            IDSP,
+            IDSHD,
+            N1,
+            H(IDSP, IDSHD, N1)
+        );
+
+        send_2(RA, SHD,
+            IDSP,
+            IDSHD,
+            N1
+        );
+
+        claim_RA1(RA, Alive);
+    }
+
+    role SHD
+    {
+        var N1: Nonce;
+
+        recv_2(RA, SHD,
+            IDSP,
+            IDSHD,
+            N1
+        );
+
+        claim_SHD1(SHD, Alive);
+    }
+}
