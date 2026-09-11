@@ -1,6 +1,5 @@
 # PART 2 : LITERATURE REVIEW
-This section synthesizes research in Internet of Things (IoT) device authentication
----
+
 
 ## 1. Literature Review Analysis Table
 
