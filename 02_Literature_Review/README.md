@@ -6,13 +6,13 @@ This section synthesizes research in Internet of Things (IoT) device authenticat
 
 The following presents five representative studies covering security approaches, their testbed, evaluation metrics, findings, and research gaps:
 
-| Author(s) & Year | Core Focus / Objective | Dataset / Testbed | Method / Security Process | Evaluation Metrics | Key Findings | Research Limitations & Gaps |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Naif Alzahrani** *(2025)* | Lightweight D2D security for constrained networks | ProVerif simulation environment | D2D protocol using ECC and SHA-256 hashing | Energy, processing time, message size | Outperforms existing methods in battery conservation and security | Tested purely via software simulation without real hardware deployment. |
-| **Deepak Kumar & Bhaskar Mondal** *(2022)* | Resistance to physical tampering and cloning | PUF circuits, Xilinx, Synopsys simulation | Physical Unclonable Function (PUF) hardware circuit verification | PUF reliability, uniqueness, energy use | Strong resistance against cloning, spoofing, and physical tampering | Temperature and voltage variations introduce noise into PUF outputs. |
-| **Munkenyi Mukhandi et al.** *(2022)* | Lightweight D2D consensus authentication | Ganache/Truffle + CORE emulator (20–40 nodes) | Hashed identities in Merkle tree on permissioned blockchain | Latency (s), throughput (kb/s), CPU utilization (%) | Latency scaled near-linearly (~12–25s); faster than central MQTT | Evaluated on PC emulators; on-chain data storage and privacy unaddressed. |
-| **Junqing Zhang et al.** *(2023)* | Physical-layer identification before packet decoding | Simulated RF signals | RFFI using engineered features and hybrid protocol | Physical-layer classification accuracy | Leverages unique hardware features without heavy crypto computation | RFF signatures are sensitive to environmental noise and component aging. |
-| **Poornima M. Chanal & M. S. Kakkasageri** *(2023)* | Context-aware device authentication | Contextual network traffic | BDI cognitive agent combined with Random Forest ML algorithm | Context-aware prediction accuracy | Belief set explicitly models context to drive authentication decisions | Secure authentication is not fully achieved at edge/router levels. |
+| Core Focus / Objective | Dataset / Testbed | Method / Security Process | Evaluation Metrics | Key Findings | Research Limitations & Gaps |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Lightweight D2D security for constrained networks | ProVerif simulation environment | D2D protocol using ECC and SHA-256 hashing | Energy, processing time, message size | Outperforms existing methods in battery conservation and security | Tested purely via software simulation without real hardware deployment. |
+| Resistance to physical tampering and cloning | PUF circuits, Xilinx, Synopsys simulation | Physical Unclonable Function (PUF) hardware circuit verification | PUF reliability, uniqueness, energy use | Strong resistance against cloning, spoofing, and physical tampering | Temperature and voltage variations introduce noise into PUF outputs. |
+| Lightweight D2D consensus authentication | Ganache/Truffle + CORE emulator (20–40 nodes) | Hashed identities in Merkle tree on permissioned blockchain | Latency (s), throughput (kb/s), CPU utilization (%) | Latency scaled near-linearly (~12–25s); faster than central MQTT | Evaluated on PC emulators; on-chain data storage and privacy unaddressed. |
+| Physical-layer identification before packet decoding | Simulated RF signals | RFFI using engineered features and hybrid protocol | Physical-layer classification accuracy | Leverages unique hardware features without heavy crypto computation | RFF signatures are sensitive to environmental noise and component aging. |
+| Context-aware device authentication | Contextual network traffic | BDI cognitive agent combined with Random Forest ML algorithm | Context-aware prediction accuracy | Belief set explicitly models context to drive authentication decisions | Secure authentication is not fully achieved at edge/router levels. |
 
 ---
 
