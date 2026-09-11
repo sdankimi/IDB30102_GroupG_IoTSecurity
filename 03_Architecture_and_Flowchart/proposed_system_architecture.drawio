@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="0_lqvndpY4jI0IgpVEGw">
+    <mxGraphModel dx="1404" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-8" edge="1" parent="1" source="dtAcbF-ACGPW2f2NDW-z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dtAcbF-ACGPW2f2NDW-z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Resource-Constrained&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IoT Device&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ESP32 / Raspberry Pi&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Pico&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="135" x="365" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-10" edge="1" parent="1" source="dtAcbF-ACGPW2f2NDW-z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dtAcbF-ACGPW2f2NDW-z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Authentication Server&lt;div&gt;&lt;ul&gt;&lt;li&gt;Check Device ID&lt;/li&gt;&lt;li&gt;Check Timestamp&lt;/li&gt;&lt;li&gt;Check Nonce&lt;br&gt;&lt;/li&gt;&lt;li&gt;Verify HMAC&lt;/li&gt;&lt;li&gt;Verify RSSI Range&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="170" x="347.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-11" edge="1" parent="1" source="dtAcbF-ACGPW2f2NDW-z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dtAcbF-ACGPW2f2NDW-z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-6" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="Authentication Decision&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ACCEPT / REJECT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="357.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-7" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="Results / Evaluation&lt;div&gt;&lt;ul&gt;&lt;li&gt;Latency&lt;/li&gt;&lt;li&gt;Message Size&lt;/li&gt;&lt;li&gt;Attack Results&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="150" x="357.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dtAcbF-ACGPW2f2NDW-z-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Authentication Request&lt;div&gt;Device ID&lt;/div&gt;&lt;div&gt;Nonce&lt;br&gt;Timestamp&lt;br&gt;HMAC-SHA256&lt;/div&gt;&lt;div&gt;RSSI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="440" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
