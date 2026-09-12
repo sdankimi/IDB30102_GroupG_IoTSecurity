@@ -1,0 +1,7 @@
+ATTACK / SECURITY TESTS
+-----------------------
+Legitimate authentication      -> PASS: device authenticated
+Replay attack                  -> BLOCKED: replay detected
+Impersonation attack           -> BLOCKED: invalid authentication tag
+Message tampering              -> BLOCKED: invalid authentication tag
+Physical RSSI mismatch         -> BLOCKED: RSSI outside enrolled range
