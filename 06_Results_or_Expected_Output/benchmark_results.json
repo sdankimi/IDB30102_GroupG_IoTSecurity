@@ -1,0 +1,38 @@
+[
+  {
+    "nodes": 1,
+    "trials": 500,
+    "accepted": 500,
+    "avg_latency_ms": 0.0076772,
+    "median_latency_ms": 0.0074,
+    "max_latency_ms": 0.0284,
+    "avg_message_bytes": 180
+  },
+  {
+    "nodes": 10,
+    "trials": 500,
+    "accepted": 500,
+    "avg_latency_ms": 0.0074452,
+    "median_latency_ms": 0.0072,
+    "max_latency_ms": 0.0269,
+    "avg_message_bytes": 180
+  },
+  {
+    "nodes": 50,
+    "trials": 500,
+    "accepted": 500,
+    "avg_latency_ms": 0.0076626,
+    "median_latency_ms": 0.007,
+    "max_latency_ms": 0.0741,
+    "avg_message_bytes": 180
+  },
+  {
+    "nodes": 100,
+    "trials": 500,
+    "accepted": 500,
+    "avg_latency_ms": 0.0074088,
+    "median_latency_ms": 0.0071,
+    "max_latency_ms": 0.0246,
+    "avg_message_bytes": 180
+  }
+]
