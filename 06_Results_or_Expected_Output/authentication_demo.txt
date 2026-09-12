@@ -1,0 +1,9 @@
+LIGHTWEIGHT IoT AUTHENTICATION DEMO
+-----------------------------------
+Device ID       : ESP32_01
+Nonce           : c9b37f2a869a3009f849b8fbd3c8b05c
+Timestamp       : 1789203689
+RSSI            : -54 dBm
+Message size    : 179 bytes
+Result          : ACCEPTED
+Reason          : device authenticated
