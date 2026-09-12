@@ -1,0 +1,6 @@
+test_id,scenario,rssi_dbm,expected_result
+T01,Legitimate authentication,-52,ACCEPT
+T02,Replay attack,-52,REJECT
+T03,Impersonation attack,-51,REJECT
+T04,Message tampering,-50,REJECT
+T05,RSSI outside enrolled range,-88,REJECT
