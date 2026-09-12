@@ -1,0 +1,4 @@
+device_id,device_type,baseline_rssi_dbm,rssi_tolerance_db
+ESP32_01,ESP32,-50,12
+ESP32_02,ESP32,-55,12
+PICO_01,Raspberry Pi Pico,-48,10
